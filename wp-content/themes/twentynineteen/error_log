@@ -1,0 +1,1 @@
+[10-Dec-2019 07:17:43 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/threesixty/public_html/wp-content/themes/twentynineteen/functions.php on line 16

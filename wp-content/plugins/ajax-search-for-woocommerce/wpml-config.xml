@@ -1,0 +1,8 @@
+<wpml-config>
+	<admin-texts>
+        <key name="dgwt_wcas_settings">
+            <key name="search_submit_text" />
+            <key name="search_placeholder" />
+    	</key>
+	</admin-texts>
+</wpml-config>

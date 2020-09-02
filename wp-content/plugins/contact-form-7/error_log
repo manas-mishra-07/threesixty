@@ -1,0 +1,1 @@
+[27-Dec-2019 18:43:09 UTC] PHP Fatal error:  Call to undefined function plugin_basename() in /home/threesixty/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19

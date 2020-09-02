@@ -1,0 +1,9 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://threesixty.life/sitemap_index.xml
+Sitemap: http://threesixty.life/product_cat-sitemap.xml
+
+#WP Import Export Rule
+User-agent: *
+Disallow: /wp-content/uploads/wp-import-export-lite/

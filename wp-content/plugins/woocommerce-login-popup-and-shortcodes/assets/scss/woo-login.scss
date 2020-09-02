@@ -1,0 +1,261 @@
+@import 'compass';
+$medium : 1024px;
+$tablet : 768px;
+
+body .woo-login-popup-sc-modal-overlay{
+    display: none;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    top:0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: rgba( 0, 0, 0, 0.5 );
+}
+body .woo-login-popup-sc-modal{
+    display: none;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    @include border-radius( 3px );
+
+    position: fixed;
+    top: -200px;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+    overflow: hidden;
+
+    background: #333;
+
+    @include box-shadow( 0px 0px 18px 2px rgba(0,0,0,0.17) );
+
+    &.woo-login-popup-sc-modal-off{
+        display: block;
+        position: relative;
+        top: auto;
+        right: auto;
+        left: auto;
+        margin: 20px;
+        border: 1px solid #ddd;
+        @include box-shadow( none );
+
+        .woo-login-popup-sc-close{
+            display: none;
+        }
+    }
+    &.woo-login-popup-sc-show{
+        top: 100px;
+    }
+
+    .woo-login-popup-sc-modal-inner{
+        display: table;
+        width: 100%;
+    }
+
+    .woo-login-popup-sc-left{
+        float: left;
+        display: table-cell;
+        width: 100%;
+        padding: 25px;
+
+        background: #fff;
+    }
+    .woo-login-popup-sc{
+        display: none;
+    }
+    div.woo-login-popup-sc-show{
+        display: block;
+    }
+    #woo-login-popup-sc-password{
+        .lost_reset_password p:first-child{
+            font-size: 14px;
+            margin-bottom: 10px !important;
+        }
+        // .woocommerce-Button{
+        //     margin-top: 0px;
+        // }
+    }
+    #woo_login_popup_sc_loggedin{
+        p{
+            font-size: 14px;
+            margin-bottom: 10px !important;
+        }
+    }
+    .woo-login-popup-sc-bg{
+        display: table-cell;
+        background: transparent url( '../images/default-bg.jpg' ) center center;
+        @include background-size( cover );
+        min-height: 100%;
+        width: 60%;
+        position: relative;
+
+    }
+
+    .woo-login-popup-sc-close{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 45px;
+        width: 45px;
+        background: #fff;
+        z-index: 999;
+        @include border-bottom-left-radius( 51px );
+
+        a{
+            position: relative;
+            display: inline-block;
+            width: 23px;
+            height: 23px;
+            overflow: hidden;
+            margin-top: 7px;
+            margin-left: 15px;
+            text-decoration: none !important;
+            border: 0px;
+            background: none;
+            &:before, &:after{
+                content: '';
+                position: absolute;
+                height: 2px;
+                width: 100%;
+                top: 50%;
+                left: 0;
+                margin-top: -1px;
+                background: #484848;
+            }
+            &:before{
+                @include transform(rotate(45deg));
+            }
+            &:after{
+                @include transform(rotate(-45deg));
+            }
+        }
+    }
+
+    .woocommerce-LostPassword, .woocommerce-plogin{
+        text-align: center;
+        padding: 0px;
+        font-size: 15px;
+        &, a{
+            text-decoration: none;
+            color: #555d66;
+        }
+    }
+
+    //elements
+    h2{
+        text-align: center;
+        padding: 0px;
+        margin: 0px 0px 12px;
+    }
+    p{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    //fields
+    label, .ywsl-label{
+        font-size: 15px;
+        font-weight: 600;
+        color: #484848;
+        margin: 0;
+        padding: 0;
+    }
+    input[type='checkbox'], input[type='text'], input[type='password'], input[type='email']{
+        background: #fbfbfb;
+    }
+    input[type='text'], input[type='password'], input[type='email']{
+        border: 1px solid #ddd;
+        font-size: 23px;
+        line-height: 25px;
+        font-weight: 600;
+        width: 100%;
+        padding: 7px;
+        margin: 2px 6px 16px 0;
+    }
+    .woocommerce-Button{
+        width: 100%;
+        clear: both;
+        font-size: 18px;
+        line-height: 28px;
+        height: auto;
+        padding: 4px;
+        margin: 20px 0px;
+        font-weight: 500;
+        &:hover{
+            @include opacity( 0.95 );
+        }
+    }
+
+    .woocommerce-error, .woocommerce-info, .woocommerce-message{
+        font-size: 15px;
+    }
+
+    .woo-login-popup-sc-clear{
+        clear: both;
+    }
+    .clear{
+        height: 0px;
+    }
+
+    //prevent conflicts
+    form.login, form.register, form.lost_reset_password{
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    form{
+        .form-row-first, .form-row-last{
+            width: 100%;
+        }
+    }
+
+    //start media query
+    @media screen and (max-width: $medium){
+        width: 95%;
+
+        .woo-login-popup-sc-bg{
+            max-width: 50%;
+            width: 50%;
+        }
+        &.woo-login-popup-sc-modal-off{
+            margin: 15px auto;
+        }
+        .woo-login-popup-sc-left{
+            padding: 17px;
+        }
+    }
+    @media screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+        .woo-login-popup-sc-left, .woo-login-popup-sc-modal-inner{
+            display: block;
+        }
+
+        .woo-login-popup-sc-bg{
+            background: none !important;
+            display: none !important;
+        }
+
+        .woo-login-popup-sc-left{
+            padding: 25px;
+        }
+    }
+    @media screen and (max-width: $tablet){
+        .woo-login-popup-sc-left, .woo-login-popup-sc-modal-inner{
+            display: block;
+        }
+        .woo-login-popup-sc-bg{
+            background: none !important;
+            display: none !important;
+        }
+        .woo-login-popup-sc-left{
+            padding: 25px;
+        }
+    }
+}
+
+body div.woo-login-popup-sc-show{
+    display: block;
+}

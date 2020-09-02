@@ -1,0 +1,13 @@
+[14-Jul-2019 15:44:54 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Jul-2019 02:10:05 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[18-Jul-2019 15:56:34 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[21-Jul-2019 18:20:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Aug-2019 07:22:09 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[20-Oct-2019 02:17:05 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[22-Oct-2019 21:47:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Nov-2019 01:30:44 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[29-Nov-2019 13:08:37 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[29-Nov-2019 14:03:48 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[29-Nov-2019 18:10:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[10-Dec-2019 07:18:36 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[13-Dec-2019 07:48:50 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/threesixty/public_html/wp-content/themes/twentyseventeen/functions.php on line 16

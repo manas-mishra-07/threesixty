@@ -1,0 +1,2 @@
+[05-Jan-2020 14:14:11 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/threesixty/public_html/wp-includes/functions.php on line 8
+[05-Jan-2020 14:14:12 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/threesixty/public_html/wp-includes/functions.php on line 8

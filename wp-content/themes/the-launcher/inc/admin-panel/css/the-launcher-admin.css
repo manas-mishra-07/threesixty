@@ -1,0 +1,109 @@
+#ap-font-awesome-list{
+    margin-bottom: 10px 
+}
+#ap-font-awesome-list ul{
+    text-align: center; 
+    height: 300px; 
+    overflow-y:scroll; 
+    position: relative; 
+    border:1px solid #EEE; 
+    margin: 0
+}
+.ap-font-icon-selector{ 
+    background: #F6F6F6; 
+    padding: 10px;
+    border:1px solid #EEE; 
+    border-top:none;
+}
+#ap-font-awesome-list li{
+    width:60px;
+    height: 60px; 
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+}
+#ap-font-awesome-list li:hover, 
+#ap-font-awesome-list li.selected{
+    background: #F6F6F6;
+}
+#ap-font-awesome-list li .fa{
+    font-size: 32px;
+    line-height: 60px;
+    color:#000;
+    display: block;
+}
+.icon-receiver {
+    background: none repeat scroll 0 0 #f6f6f6;
+    display: block;
+    font-size: 32px;
+    text-align: center;
+}
+.icon-receiver .fa{
+    margin: 10px;
+}
+input.small-text[type="number"]{
+    width: 110px;
+    padding: 3px 5px;
+}
+.ap-font-icon-selector{
+    text-align: center;
+}
+.ap-font-icon-selector .button{
+    width: 80%;
+}
+
+
+
+#ap-font-awesome-list1{
+    margin-bottom: 10px 
+}
+#ap-font-awesome-list1 ul{
+    text-align: center; 
+    height: 300px; 
+    overflow-y:scroll; 
+    position: relative; 
+    border:1px solid #EEE; 
+    margin: 0
+}
+.ap-font-icon-selector1{ 
+    background: #F6F6F6; 
+    padding: 10px;
+    border:1px solid #EEE; 
+    border-top:none;
+}
+#ap-font-awesome-list1 li{
+    width:60px;
+    height: 60px; 
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+}
+#ap-font-awesome-list1 li:hover, 
+#ap-font-awesome-list li.selected{
+    background: #F6F6F6;
+}
+#ap-font-awesome-list1 li .fa{
+    font-size: 32px;
+    line-height: 60px;
+    color:#000;
+    display: block;
+}
+.icon-receiver1 {
+    background: none repeat scroll 0 0 #f6f6f6;
+    display: block;
+    font-size: 32px;
+    text-align: center;
+}
+.icon-receiver1 .fa{
+    margin: 10px;
+}
+input.small-text[type="number"]{
+    width: 110px;
+    padding: 3px 5px;
+}
+.ap-font-icon-selector1{
+    text-align: center;
+}
+.ap-font-icon-selector1 .button{
+    width: 80%;
+}

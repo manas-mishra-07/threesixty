@@ -1,0 +1,25 @@
+<wpml-config>
+<admin-texts>
+<key name="theme_mods_the-launcher">
+    <key name="the_launcher_service_section_title" />
+    <key name="the_launcher_service_section_sub_title" />
+    <key name="the_launcher_service_desc" />
+    <key name="the_launcher_blogs_section_title" />
+    <key name="the_launcher_blogs_section_sub_title" />
+    <key name="the_launcher_video_section_title" />
+    <key name="the_launcher_video_section_sub_title" />
+    <key name="the_launcher_video_desc" />
+    <key name="the_launcher_pricing_section_title" />
+    <key name="the_launcher_pricing_section_sub_title" />
+    <key name="the_launcher_pricing_desc" />
+    <key name="the_launcher_testimonial_section_title" />
+    <key name="the_launcher_testimonial_section_sub_title" />
+    <key name="the_launcher_client_section_title" />
+    <key name="the_launcher_client_section_sub_title" />
+    <key name="the_launcher_cta_desc" />
+    <key name="the_launcher_contact_section_title" />
+    <key name="the_launcher_contact_section_sub_title" />
+    <key name="the_launcher_contact_desc" />
+</key>
+</admin-texts>
+</wpml-config>

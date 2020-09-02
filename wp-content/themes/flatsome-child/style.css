@@ -1,0 +1,48 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+@font-face {
+    font-family: 'GTAmericaRegular';
+    src: url('fonts/GTAmericaRegular.eot');
+    src: url('fonts/GTAmericaRegular.eot') format('embedded-opentype'),
+         url('fonts/GTAmericaRegular.woff2') format('woff2'),
+         url('fonts/GTAmericaRegular.woff') format('woff'),
+         url('fonts/GTAmericaRegular.ttf') format('truetype'),
+         url('fonts/GTAmericaRegular.svg#GTAmericaRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'GTAmericaThin';
+    src: url('fonts/GTAmericaThin.eot');
+    src: url('fonts/GTAmericaThin.eot') format('embedded-opentype'),
+         url('fonts/GTAmericaThin.woff2') format('woff2'),
+         url('fonts/GTAmericaThin.woff') format('woff'),
+         url('fonts/GTAmericaThin.ttf') format('truetype'),
+         url('fonts/GTAmericaThin.svg#GTAmericaThin') format('svg');
+}
+
+@font-face {
+    font-family: 'AudreyNormal';
+    src: url('fonts/AudreyNormal.eot');
+    src: url('fonts/AudreyNormal.eot') format('embedded-opentype'),
+         url('fonts/AudreyNormal.woff2') format('woff2'),
+         url('fonts/AudreyNormal.woff') format('woff'),
+         url('fonts/AudreyNormal.ttf') format('truetype'),
+         url('fonts/AudreyNormal.svg#AudreyNormal') format('svg');
+}
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+
+
+

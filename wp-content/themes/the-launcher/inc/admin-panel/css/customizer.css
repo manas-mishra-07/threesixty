@@ -1,0 +1,110 @@
+/*User stick note*/
+.user_sticky_note {
+   padding: 0px 10px 15px;
+   background: #EEE;
+   border-bottom: 1px solid #EEE;
+}
+h3.sticky_title {
+   font-size: 22px !important;
+   margin-top: 12px;
+   margin-bottom: 11px;
+}
+
+span.sticky_info_row {
+   display: block;
+   line-height: 23px;
+}
+
+label.row-element {
+   font-weight: bold;
+}
+
+.upgrade-pro{
+    background-color: #e24545;
+    color: #FFF !important;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 1;
+    display: block;
+    margin-top: 6px;
+    text-align: center;
+}
+
+.sticky_info_row .button{
+    width: 100%;
+    margin: 2px 0;
+    text-align: center;
+}
+
+#customize-control-theme_info_more_theme span,
+#customize-control-theme_info_pro_theme span,
+#customize-control-theme_info_useful_plugins span, 
+#customize-control-gaga_lite_gaga_pro_theme span{
+	width: 100%; display: block;
+    text-align: center;
+}
+
+#customize-control-theme_info_more_theme span a,
+#customize-control-theme_info_pro_theme span a,
+#customize-control-theme_info_useful_plugins span a, 
+#customize-control-gaga_lite_gaga_pro_theme span a{
+	color: #333;
+}
+
+.admin-pro-feature-list li{
+ 	border-bottom: 1px solid #DBDBDB;
+    margin: 0;
+    padding: 10px 0px;
+    line-height: 1;
+}
+.admin-pro-feature-list li:before{
+     content: "\f345";
+    font: 400 20px/1 dashicons;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+ 
+ }
+.admin-pro-feature-list span{
+     display: inline-block;
+    width: 90%;
+    vertical-align: top;
+}
+.admin-pro-feature-list{
+    margin: 0 5px;
+}
+.buynow{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.upgrade-pro{
+    background-color: #e24545;
+    color: #FFF !important;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 1;
+    display: block;
+    margin-top: 6px;
+    text-align: center;
+}
+
+/**
+* Upgred To Pro
+*/
+.control-section-launcher-pro{
+ display: block !important;
+}
+#customize-theme-controls .control-section-launcher-pro h3.accordion-section-title {
+   background: #0073aa !important;
+   color: #FFF !important;
+   border: 0;
+}
+.control-section-launcher-pro .accordion-section-title .button {
+   margin-top: -4px;
+   margin-left: 8px;
+   border: none;
+   color: #fff;
+   background: #28c503;
+   box-shadow: none;
+}
